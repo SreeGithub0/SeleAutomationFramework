@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SeleAutomationFramework(failed)">
+    <classes>
+      <class name="PageTestPackage.LoginPageDDT">
+        <methods>
+          <include name="setup"/>
+          <include name="loginddt"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- PageTestPackage.LoginPageDDT -->
+    </classes>
+  </test> <!-- SeleAutomationFramework(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

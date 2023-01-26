@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/14088/IdeaProjects/SeleAutomationFramework(failed)">
+    <classes>
+      <class name="PageTestPackage.LoginPageTest">
+        <methods>
+          <include name="Testlogin"/>
+          <include name="setup"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- PageTestPackage.LoginPageTest -->
+      <class name="PageTestPackage.LandingPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="TestMailID"/>
+          <include name="TestWbl"/>
+        </methods>
+      </class> <!-- PageTestPackage.LandingPageTest -->
+      <class name="PageTestPackage.HomePageTest">
+        <methods>
+          <include name="Teardown"/>
+          <include name="Testlogo"/>
+          <include name="verifylogin"/>
+          <include name="setup"/>
+          <include name="TestFreeStudent"/>
+        </methods>
+      </class> <!-- PageTestPackage.HomePageTest -->
+    </classes>
+  </test> <!-- C:/Users/14088/IdeaProjects/SeleAutomationFramework(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
